@@ -1,0 +1,17 @@
+// variables
+$spacer-flex: 1 1 auto;
+$color-white: #ffffff;
+$standard-margin: 12px;
+
+.home-title {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.spacer {
+  flex: $spacer-flex;
+}
+
+.user-name {
+  margin-right: $standard-margin;
+}

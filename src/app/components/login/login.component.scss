@@ -1,0 +1,28 @@
+// variables
+$login-card-max-width: 400px;
+$login-card-margin-center: 48px auto;
+$border: 1px solid #808080;
+$fullWidth: 100%;
+$color-blue: #0000ff;
+
+.login-card {
+  max-width: $login-card-max-width;
+  margin: $login-card-margin-center;
+  text-align: center;
+  align-items: center;
+  border: $border;
+}
+
+.mat-card-header {
+  display: block;
+}
+
+.mat-form-field {
+  width: $fullWidth;
+}
+
+.register-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: $color-blue;
+}

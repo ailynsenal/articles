@@ -1,0 +1,27 @@
+<mat-toolbar color="">
+  <h3 *ngIf="!articles.length">No article/s available.</h3>
+  <span class="spacer"></span>
+  <button mat-raised-button color="" class="add-button" (click)="openAddDialog()" *ngIf="!hasSearchTerm">Add Article</button>
+</mat-toolbar>
+  <mat-grid-list cols="5" rowHeight="1:1" *ngIf="articles.length">
+    <mat-grid-tile *ngFor="let article of articles">
+      <mat-card class="post-card" *ngIf="article">
+        <mat-card-title>
+          <a routerLink="{{article.id}}" class="article-link">
+            <h6 class="post-id">Article #{{article.id}}</h6>
+          </a>
+        </mat-card-title>
+        <mat-card-content>
+          <span class="post-title">{{article.title}}</span>
+          <a routerLink="{{article.id}}" class="view-details-link">
+            <span>View Details</span>
+          </a>
+        </mat-card-content>
+        <mat-card-actions class="card-actions" align="end">
+          <button mat-stroked-button color="primary" (click)="openEditDialog(article)">Edit</button>
+          <button mat-stroked-button color="warn" (click)="deleteArticle(article.id)">Remove</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+    

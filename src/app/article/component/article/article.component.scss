@@ -1,0 +1,19 @@
+// variables
+$article-detail-width: 50%;
+$border: 1px solid #000000;
+$standard-margin: 12px;
+
+.article-detail {
+  width: $article-detail-width;
+  border: none;
+  box-shadow: none;
+  margin: $standard-margin;
+}
+
+.article-id {
+  margin-bottom: $standard-margin;
+}
+
+.edit-button {
+  margin-right: $standard-margin;
+}

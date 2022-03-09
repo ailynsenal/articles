@@ -1,0 +1,11 @@
+// variables
+$fullWidth: 100%;
+$cancel-button-margin-right: 8px;
+
+mat-form-field {
+  width: $fullWidth;
+}
+
+.cancel-button {
+  margin-right: $cancel-button-margin-right;
+}

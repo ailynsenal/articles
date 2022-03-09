@@ -1,0 +1,64 @@
+// variables
+$spacer-flex: 1 1 auto;
+$standard-margin: 12px;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-green: #128f12;
+$color-gray: #808080;
+$border: 1px solid $color-gray;
+$mat-card-content-height: 50px;
+$post-card-width: 250px;
+$post-card-height: 150px;
+$webkit-line-clamp: 3;
+
+.spacer {
+  flex: $spacer-flex;
+}
+
+h6 {
+  margin: $standard-margin 0;
+}
+
+.mat-card-content {
+  height: $mat-card-content-height;
+}
+
+.article-link {
+  color: $color-black;
+}
+
+.view-details-link {
+  float: right;
+  margin-top: $standard-margin;
+}
+
+.post-card {
+  width: $post-card-width;
+  border: $border;
+  margin: $standard-margin;
+  height: $post-card-height;
+}
+
+.post-title {
+  display: -webkit-box;
+  -webkit-line-clamp: $webkit-line-clamp;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.card-actions {
+  margin-top: $standard-margin;
+}
+
+.add-button {
+  margin-right: $standard-margin;
+  background-color: $color-green;
+  color: $color-white;
+}
+
+.no-record {
+  margin: $standard-margin;
+}

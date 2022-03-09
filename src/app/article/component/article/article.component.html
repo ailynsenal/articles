@@ -1,0 +1,13 @@
+<mat-card class="article-detail" *ngIf="article">
+    <mat-card-actions class="card-actions" align="end">
+        <button mat-flat-button color="primary" class="edit-button" (click)="openEditModal(article)">Edit</button>
+        <button mat-flat-button color="accent" class="delete-button" routerLink="/articles">Back</button>
+    </mat-card-actions>
+    <mat-card-title class="article-id">Article {{article.id}}</mat-card-title>
+    <mat-card-content>
+        <strong>Title</strong>
+        <p>{{article.title}}</p>
+        <strong>Body</strong>
+        <p>{{article.body}}</p>
+    </mat-card-content>
+</mat-card>

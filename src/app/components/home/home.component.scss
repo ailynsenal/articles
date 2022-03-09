@@ -1,0 +1,29 @@
+//variables
+$half-width: 50%;
+$container-width: 80%;
+$standard-margin: 12px;
+$spacer-flex: 1 1 auto;
+$color-white: #ffffff;
+
+.home-title {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.spacer {
+  flex: $spacer-flex;
+}
+
+.user-name {
+  margin-right: $standard-margin;
+}
+
+.container {
+  margin: auto;
+  width: $container-width;
+}
+
+.search {
+  width: $half-width;
+  margin: $standard-margin;
+}

@@ -1,0 +1,20 @@
+$register-card-max-width: 400px;
+$register-card-margin-center: 48px auto;
+$border: 1px solid #808080;
+$full-span: 100%;
+
+.register-card {
+  max-width: $register-card-max-width;
+  margin: $register-card-margin-center;
+  text-align: center;
+  align-items: center;
+  border: $border;
+}
+
+.mat-card-header {
+  display: block;
+}
+
+.mat-form-field {
+  width: $full-span;
+}

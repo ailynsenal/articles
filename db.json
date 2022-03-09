@@ -1,0 +1,38 @@
+{
+  "articles": [
+    {
+      "title": "The Classic How-to Title / Headline",
+      "body": "A lot of popular blogs and websites have discovered formulas that deliver results every time.\n\nOne headline formula that’s been incredibly effective for more than a century is the classic how to. This is a great way to increase engagement, just be sure to deliver on your promises.\n\nThey don’t even necessarily need to start with the words “how to” to be a how to headline.\n\n“How to Have a Healthier and More Productive Home Office”\n\n” How To Change Your Life For The Better – 33 Things You Can Do”\n\n“10 Step To Successfully Outsourcing Your Online Business”\n\n“21 Ways to Dominate Youtube: The Ultimate Guide”\n\n“15 Website Content Hacks A-List Bloggers Use To Create Viral Content”",
+      "userId": "1",
+      "id": 1
+    },
+    {
+      "title": "“Identify and Solve a Problem” Titles",
+      "body": "One of the best ways to get new readers is to identify and solve a problem with trigger words.\n\nThe top companies use emotional triggers in nearly every headline – another classic style that’s withstood the test of time.\n\nYou’ll notice major companies like Cosmopolitan, Daily Mail, and Yahoo using this style often:\n\n“6 Instant Confidence Boosters”\n\n“Parenting Guru: From Chaos to Access”\n\n“Gene Breakthrough Restores The Sight Of People With Inherited Eye Disease And Could Save Thousands From Blindness”",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "title": "The Make A Statement Headline.",
+      "body": "Sometimes we get writer’s block and can’t think of a clever headline… This is where making a direct statement is the easiest and most effective way to engage your reader. \n\n“Before you buy an electric car: 21 Things You Should Know”\n\n“Tips That Show Anybody How To Make Money Online – Guaranteed”\n\n“Thousands Already Make Millions Online And So Can You”",
+      "id": 3
+    },
+    {
+      "title": "Strike A Note Of Controversy..",
+      "body": "s any newspaper person will tell you: controversy sells.\n\nControversial titles grab attention.\n\nRiding the wave of controversy is good for blogs that want to pull audiences in. It gets your visitor emotionally involved. They are more likely to comment on your site.\n\n“Why All Guys Cheat, Fresh Insight”\n\n“Which One Deserves To Die?”\n\n“10 Reasons Civilization May Collapse Because Of Organic Foods…”\n\nIt’s a very effective tool for generating attention. Just try not to land on the wrong side of an issue or be disrespectful.\n\nYou don’t want to offend your primary audience unless of course, you’re trying to not make money.\n\nRemember, you want to pull readers in not push them away.",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "username": "Aya",
+      "email": "ailyn_senal@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "id": 2
+    }
+  ]
+}
